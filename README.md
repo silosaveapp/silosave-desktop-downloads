@@ -12,16 +12,16 @@ This repository distributes official SiloSave Desktop installers. The applicatio
 
 | Platform | Release | Download |
 | --- | --- | --- |
-| Windows x64 | v0.1.8 | [Download Windows installer (.exe)](https://github.com/silosaveapp/silosave-desktop-downloads/releases/download/v0.1.8/SiloSave-Desktop-Setup-0.1.8.exe) |
+| Windows x64 | v0.1.9 | [Download Windows installer (.exe)](https://github.com/silosaveapp/silosave-desktop-downloads/releases/download/v0.1.9/SiloSave-Desktop-Setup-0.1.9.exe) |
 | macOS 13+, Apple Silicon (M-series) | v0.1.7 preview | [Download Apple Silicon preview (.dmg)](https://github.com/silosaveapp/silosave-desktop-downloads/releases/download/v0.1.7/SiloSave-Desktop-0.1.7-mac-arm64-preview.dmg) |
 | macOS 13+, Intel | v0.1.7 preview | [Download Intel preview (.dmg)](https://github.com/silosaveapp/silosave-desktop-downloads/releases/download/v0.1.7/SiloSave-Desktop-0.1.7-mac-x64-preview.dmg) |
 
-> **macOS note:** v0.1.8 is currently Windows-only. For macOS, use the v0.1.7 preview packages listed above.
+> **macOS note:** v0.1.9 is currently Windows-only. For macOS, use the v0.1.7 preview packages listed above.
 
-Read the [v0.1.8 release notes](https://github.com/silosaveapp/silosave-desktop-downloads/releases/tag/v0.1.8) and verify that the Windows installer SHA-256 equals `ee23d410d9382d8709db1dd6a13b93f01ff8cc75ee63c43953a0122497f7bced`. For the macOS preview builds, refer to the [v0.1.7 checksum file](https://github.com/silosaveapp/silosave-desktop-downloads/releases/download/v0.1.7/SHA256SUMS.txt). On Windows, you can calculate a file's SHA-256 with:
+Read the [v0.1.9 release notes](https://github.com/silosaveapp/silosave-desktop-downloads/releases/tag/v0.1.9) and verify that the Windows installer SHA-256 equals `0c002b9e6e3cbbccb3ee124a83abed47665aebe7f8d44d1cabef861812c36511`. For the macOS preview builds, refer to the [v0.1.7 checksum file](https://github.com/silosaveapp/silosave-desktop-downloads/releases/download/v0.1.7/SHA256SUMS.txt). On Windows, you can calculate a file's SHA-256 with:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 .\SiloSave-Desktop-Setup-0.1.8.exe
+Get-FileHash -Algorithm SHA256 .\SiloSave-Desktop-Setup-0.1.9.exe
 ```
 
 Compare the reported hash with the published SHA-256 above before running the installer.
